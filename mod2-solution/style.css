@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  h3{
+    border: 1px solid black;
+    text-align: end;
+    padding: 2px;
+    margin-left: 220px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  .t1{
+    background-color: chartreuse;
+  }
+  .t2{
+    background-color: chocolate;
+  
+  }
+  .t3{
+    background-color: cornflowerblue;
+  }
+  
+  p {
+    width: 90%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    padding: 5px;
+  }
+   
+   .principal{
+     width: 100%;
+    
+   }
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .p1, .p2, .p3{
+    float: left;
+    border: 1px solid green;
+    margin-left: 3px;
+  }
+  
+  .p1 {
+    width: 33%;
+    background-color:bisque;
+  }
+  .p2 {
+    width: 33%;
+    background-color: bisque;
+  }
+  .p3 {
+    width: 33%;
+    background-color: bisque;
+
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .p11, .p21, .p31{
+    float: left;
+    border: 1px solid green;
+    margin-left: 3px;
+    margin-bottom: 10px;
+
+  }
+  
+  .p11 {
+    width: 40%;
+    background-color: bisque;
+  }
+  .p21 {
+    width: 40%;
+    background-color: bisque;
+
+  }
+  .p31 {
+    width: 80%;
+    background-color: bisque;
+
+  }
+}
+/********** small devices only **********/
+@media  (max-width: 768px) {
+  .p11, .p21, .p31{
+    float: left;
+    border: 1px solid green;
+    margin-bottom: 10px;
+  }
+  
+  .p11 {
+    width: 100%;
+    background-color: bisque;
+  }
+  .p21 {
+    width: 100%;
+    background-color: bisque;
+
+  }
+  .p31 {
+    width: 100%;
+    background-color: bisque;
+  }
+}
